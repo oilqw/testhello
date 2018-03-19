@@ -70,6 +70,7 @@
 				<version>1.0.0</version>
 				<configuration>
 					<imageName>${project.artifactId}</imageName>
+					<forceTags>true</forceTags>
 					<imageTags>
 						<imageTag>${project.version}</imageTag>
 						<imageTag>latest</imageTag>
