@@ -64,7 +64,7 @@
 					<target>1.8</target>
 				</configuration>
 			</plugin>
-			<plugin>
+		<!-- 	<plugin>
 				<groupId>com.spotify</groupId>
 				<artifactId>docker-maven-plugin</artifactId>
 				<configuration>
@@ -82,7 +82,7 @@
 						</resource>
 					</resources>
 				</configuration>
-			</plugin>
+			</plugin> -->
 		</plugins>
 	</build>
 </project>
