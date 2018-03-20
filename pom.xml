@@ -69,6 +69,7 @@
 				<artifactId>docker-maven-plugin</artifactId>
 				<version>1.0.0</version>
 				<configuration>
+					<dockerHost>http://www.ouwenjie.com:5555</dockerHost>
 					<imageName>${project.artifactId}</imageName>
 					<forceTags>true</forceTags>
 					<imageTags>
