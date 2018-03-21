@@ -80,6 +80,7 @@
 				<artifactId>docker-maven-plugin</artifactId>
 				<version>1.0.0</version>
 				<configuration>
+					<forceTags>true</forceTags>
 					<dockerHost>http://www.ouwenjie.com:5555/</dockerHost>
 					<imageName>mall/${project.artifactId}:latest</imageName>
 					<dockerDirectory>src/main/docker</dockerDirectory>
